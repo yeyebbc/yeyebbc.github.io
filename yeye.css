@@ -1,0 +1,19 @@
+.nav-item:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.nav-item {
+    transition: 300ms;
+    /* transition-timing-function: ease-in-out; */
+}
+
+.body {
+    background-color: yellow;
+    height:500px;
+}
+
+.footer {
+    /* position: fixed; */
+    background-color: green;
+}
