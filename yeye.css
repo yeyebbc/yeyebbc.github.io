@@ -9,11 +9,53 @@
 }
 
 .body {
-    background-color: yellow;
-    height:500px;
+    /* background-color: yellow; */
+    height:auto;
+    max-width: 70rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.body .row {
+    padding-right: 0;
+    padding-left: 0;
+    --bs-gutter-x: 0;
 }
 
 .footer {
     /* position: fixed; */
     background-color: green;
 }
+
+.card {
+    border-radius: 0px;
+    border: 0.4rem solid black;
+    position: relative;
+    height: 100%;
+
+    transition: 300ms;
+}
+
+.card:hover{
+    border: 1rem solid black;
+}
+
+.card img{
+    max-height: 100%;
+}
+
+.card-body{
+    width: 100%;
+    /* z-index: 10; */
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+
+    transition: 300ms;
+}
+
+
+/* .footer {
+    position: fixed;
+    bottom: 0;
+} */
