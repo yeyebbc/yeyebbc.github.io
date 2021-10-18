@@ -1,0 +1,39 @@
+body {
+    color: rgb(53, 41, 33);
+    background: rgb(245, 234, 214);
+    font-family: 'Times New Roman', serif, Calibri; 
+    line-height: 1.2rem;
+    /* line-break: strict; */
+    text-align: justify;
+    hyphens: all;
+    padding:2em;
+  }
+
+  strong {
+    font-size: larger;
+    line-height: 3rem;
+  }
+
+
+  a {
+    color: #0033cc;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: rgb(211, 211, 211);
+      background: #1b1b1b;
+    }
+  
+    body a {
+      color: #809fff;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    body {
+      max-width: 50%;
+      margin: auto;
+      line-height: 1.5rem;
+    }
+  }
