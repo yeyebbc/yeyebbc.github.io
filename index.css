@@ -1,0 +1,115 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    align-items: center;
+    /* margin: 0rem 12rem 0rem 12rem; */
+    line-height: 6rem;
+    background-color: rgb(250, 250, 248);
+}
+a {
+    color: black;
+    /* font-size: 1.5rem; */
+    font-weight: bold;
+    /* text-decoration: none; */
+    text-underline-offset: 0.2rem;
+}
+.logo p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo {
+    line-height: 8rem;
+    align-items: center;
+
+    /* background-color: rgb(247, 247, 247); */
+    transition: 240ms;
+}
+
+a:link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* text-decoration: none; */
+    transition: 240ms;
+}
+a:hover {
+    text-decoration: underline;
+    /* text-underline-offset: 0.3em; */
+    font-size: 1.6rem;
+}
+a:active {
+    color: rgb(221, 79, 110);
+    font-size: 1.7rem;
+}
+a:visited {
+    color: inherit;
+}
+
+.reception nav {
+    margin-top: 2rem;
+    /* background-color: rgb(219, 219, 255); */
+}
+
+
+
+footer {
+    margin-top: auto;
+    padding-bottom: 1rem;
+}
+footer p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 100%;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: rgb(202, 202, 202);
+        background-color: #1a1a1a;
+    }
+    a {
+        color: rgb(202, 202, 202);
+    }
+    a:active {
+        color: rgb(190, 81, 104);
+    }
+  
+  }
+
+  @media only screen and (min-width: 768px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        align-items: center;
+        /* margin: 0rem 12rem 0rem 12rem; */
+        line-height: 10rem;
+    }
+
+    .logo {
+        line-height: 10rem;
+    }
+    .logo p {
+        font-size: 2.5rem;
+    }
+
+    a:link{
+        font-size: 2rem;
+        transition: 240ms;
+    }
+    a:hover {
+        text-decoration: underline;
+        /* text-underline-offset: 0.3em; */
+        font-size: 2.2rem;
+    }
+    a:active {
+        font-size: 2.1rem;
+    }
+  }
